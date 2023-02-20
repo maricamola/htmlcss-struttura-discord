@@ -12,7 +12,7 @@ header{
   display: flex;
   justify-content: center;
   background-color:#ADD8E6;
-  height: 50px;
+  min-height: 50px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -104,6 +104,75 @@ nav ul li a:hover{
 
 .sectionvoice{
   background-color: #D3D3D3;
+}
+
+.lastsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:#D3D3D3;
+  height: 500px;
+}
+
+.imgfinal{
+  display: flex;
+  height: 400px;
+  width: 600px;
+  background-color: #228B22;
+}
+
+.fcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:#23272A;
+  height: 400px;
+}
+
+.social{
+  display: flex;
+  height: 300px;
+  width: 200px;
+  background-color:#F08080;
+  border: 2px dashed black;
+}
+
+.prodotto ,
+.compagnia,
+.risorse,
+.norme {
+  display: flex;
+  height: 300px;
+  width: 100px;
+  background-color: #20B2AA;
+  border: 2px dashed white;
+}
+
+.finale {
+  display: flex;
+  justify-content: center;
+  background-color:#23272A;
+  height: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 2px solid #D6D7D7;
+}
+
+.containerfinale{
+  background-color: #7FFFD4;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  width: 600px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logofinale , .registrati{
+  border: 2px dashed black;
+  background-color: #FFB6C1;
 }
 
 
