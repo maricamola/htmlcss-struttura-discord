@@ -1,3 +1,67 @@
-body{
-background-color: aqua;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.container{
+  font-size: 12px;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color:#ADD8E6;
+  height: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.intestazione{
+  background-color: #DAA520;
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  border: 2px dashed black;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  padding-right: 50px;
+}
+
+.login{
+  padding-left: 50px;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 100px;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li{
+  margin-right: 15px;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
