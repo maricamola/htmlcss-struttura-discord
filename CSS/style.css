@@ -45,7 +45,7 @@ nav ul{
 }
 
 nav ul li a{
-  color: white;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -57,6 +57,61 @@ nav ul li{
 nav ul li a:hover{
   text-decoration: underline;
 }
+
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #00008B;
+  height: 300px;
+}
+
+.contenutojumbo{
+  display: flex;
+  height: 200px;
+  width: 500px;
+  background-color: #EE82EE;
+  border: 2px dashed black;
+}
+
+.sectionstudy ,
+.sectionvoice ,
+.sectioncoach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:#FFFFFF;
+  height: 300px;
+}
+
+.img-study{
+  display: flex;
+  height: 200px;
+  width: 400px;
+  background-color: #1E90FF;
+  border: 2px dashed black;
+}
+
+.presentazione{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color: #FFC0CB;
+  border: 2px dashed black;
+}
+
+.sectionvoice{
+  background-color: #D3D3D3;
+}
+
+
+
+
+
+
+
 
 
 
